@@ -50,18 +50,18 @@ const NextArrow = (props) => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 900,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
 
   return (
     <Slider {...settings} className="mt-1px">
-      {movies.slice(0, 15).map((movie) => (
+      {movies.slice(0, 16).map((movie) => (
         <div key={movie.imdbID}  className="d-flex mr-1px " style={{marginBottom:"50px"}}>
           <img
             src={movie.Poster}
