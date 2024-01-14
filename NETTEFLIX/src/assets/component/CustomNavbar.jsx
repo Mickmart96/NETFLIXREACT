@@ -17,7 +17,6 @@ function CustomNavbar() {
           <Nav className="me-auto">
             <Nav.Link href="#home" className="text-light">Home</Nav.Link>
             <Nav.Link href="#link" className="text-light">TV Shows</Nav.Link>
-            <Nav.Link href="#link" className="text-light">TV Shows</Nav.Link>
             <Nav.Link href="#link" className="text-light">Movies</Nav.Link>
             <Nav.Link href="#link" className="text-light">Recently Added</Nav.Link>
             <Nav.Link href="#link" className="text-light">My List</Nav.Link>

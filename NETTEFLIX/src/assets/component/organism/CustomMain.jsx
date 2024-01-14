@@ -9,13 +9,13 @@ const CustomMain = () => {
     return (
         <>
           <TvShowComponent/>
-          <p className="text-light mx-5">Dragon Ball</p>
+          <h3 className="text-light mx-5">DRAGON BALL</h3>
           <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=Dragon+Ball"/>
           <br/>
-          <p className="text-light mx-5">Marvel</p>
+          <h3 className="text-light mx-5">MARVEL</h3>
           <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=Marvel"/>
           <br/>
-          <p className="text-light mx-5">Spiderman</p>
+          <h3 className="text-light mx-5">SPIDERMAN</h3>
           <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=Spider+man"/>
         </>
     )

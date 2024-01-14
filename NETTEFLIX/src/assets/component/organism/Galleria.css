@@ -1,0 +1,11 @@
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-item {
+    width: 200px;
+    height: 300px;
+    margin: 0 10px; /* Aggiungi margine se necessario */
+  }
