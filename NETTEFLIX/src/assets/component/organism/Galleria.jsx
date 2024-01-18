@@ -60,9 +60,9 @@ const NextArrow = (props) => {
   };
 
   return (
-    <Slider {...settings} className="mt-1px">
+    <Slider {...settings} >
       {movies.slice(0, 16).map((movie) => (
-        <div key={movie.imdbID}  className="d-flex mr-1px " style={{marginBottom:"50px"}}>
+        <div key={movie.imdbID}  className="d-flex  " style={{marginBottom:"50px"}}>
           <img
             src={movie.Poster}
             alt={movie.Title}
